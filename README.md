@@ -207,7 +207,7 @@ Example
 #### Intenacionalization
 
 To translate the days of the week displayed in the component, simply follow the official Laravel documentation at https://laravel.com/docs/9.x/localization#configuring-the-locale .
-After configuring the application, create a file called days-of-week.php and lang/ folder and add the array with the days of the week.
+Add an array with the days of the week in file with messages.
 
 ```php
 
