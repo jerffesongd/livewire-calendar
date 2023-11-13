@@ -2,7 +2,7 @@
      style="min-width: 10rem;">
 
     <p class="text-sm">
-        {{ __('days-of-week.' . $day->format('l')) }}
+        {{ __($day->format('l')) }}
     </p>
 
 </div>
