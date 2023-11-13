@@ -204,6 +204,26 @@ Example
 />
 ```
 
+#### Intenacionalization
+
+To translate the days of the week displayed in the component, simply follow the official Laravel documentation at https://laravel.com/docs/9.x/localization#configuring-the-locale .
+After configuring the application, simply create a file called days-of-week.php and add the array with the days of the week.
+
+```php
+
+// English to Portuguese
+
+return [
+    "Monday"=> "Segunda",
+    "Tuesday"=> "Terça",
+    "Wednesday"=> "Quarta",
+    "Thursday"=> "Quinta",
+    "Friday"=> "Sexta",
+    "Saturday"=> "Sábado",
+    "Sunday" => "Domingo"
+];
+```
+
 ### Interaction customization
 
 You can override the following methods to add interactivity to your component
